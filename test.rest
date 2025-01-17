@@ -1,0 +1,19 @@
+### TEST GET / WEBSITE
+GET http://localhost:8383
+
+### TEST GET /dashboard WEBSITE
+GET http://localhost:8383/dashboard
+
+### DATA ENDPOINT
+GET http://localhost:8383/api/data
+
+### ADDING A USER
+POST  http://localhost:8383/api/data
+Content-type: application/json
+
+{
+    "name" : "shayaan"
+}
+
+### DELETE THE LAST USER
+DELETE http://localhost:8383/api/data
